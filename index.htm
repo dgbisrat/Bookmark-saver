@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Saver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Bookmark Saver</h1>
+        
+        <form  class="bookmark-form">
+            <div class="input-group">
+                <input type="text" id="name" class="bookmark-name" placeholder="Enter bookmark name" required>
+            </div>
+
+            <div class="input-group">
+                <input type="url" id="url" class="bookmark-url" placeholder="https://example.com" required>
+            </div>
+
+            <button type="submit" class="add-btn">Add Bookmark</button>
+        </form>
+
+        <section class="bookmark-list">
+            <h2>Saved Bookmarks</h2>
+            <ul class="list-container">
+            <!--     <li class="bookmark-item">
+                    <a href="https://google.come" target="_blank">Google Page</a>
+                    <button class="remove-bookmark">Remove</button>
+                </li>
+              -->
+           
+            </ul>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

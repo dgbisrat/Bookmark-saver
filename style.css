@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+h1{
+    color: aqua;
+    font-size: 2rem;
+}
+
+.input-group{
+    padding: 5px 0px;
+}
+
+.bookmark-name,
+.bookmark-url{
+    padding: 8px;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    outline: none;
+}
+
+.add-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.2s;
+}
+
+.add-btn:active{
+    background-color: rgb(2, 206, 206);
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+.list-container{
+    max-height: 150px;
+    overflow: auto;
+}
+
+li{
+    list-style-type: none;
+    background-color: lightgray;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 18px;
+}
+
+li button{
+    width: 30%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-bookmark:active{
+    background-color: rgb(221, 10, 10);
+}

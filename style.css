@@ -23,7 +23,7 @@ body{
 }
 
 h1{
-    color: aqua;
+    color: green;
     font-size: 2rem;
 }
 
@@ -36,7 +36,7 @@ h1{
     padding: 8px;
     width: 100%;
     font-size: 18px;
-    border: 2px solid aqua;
+    border: 2px solid green;
     border-radius: 8px;
     outline: none;
 }
@@ -44,7 +44,7 @@ h1{
 .add-btn{
     width: 100%;
     padding: 10px;
-    background-color: aqua;
+    background-color: green;
     color: white;
     border: none;
     font-size: 18px;
